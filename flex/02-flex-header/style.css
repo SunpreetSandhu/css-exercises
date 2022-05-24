@@ -1,6 +1,10 @@
-.header  {
+.header {
   font-family: monospace;
   background: papayawhip;
+
+  display: flex; /* puts in flex (row) */
+  justify-content: space-between; /* Puts space between the flex items IN header*/
+  padding: 8px; /* puts space between the border and content*/
 }
 
 .logo {
@@ -14,6 +18,9 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+
+  display: flex;
+  gap: 8px; /* added gap between ul items*/
 }
 
 a {
